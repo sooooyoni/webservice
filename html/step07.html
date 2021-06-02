@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 1.5px dotted tan;   
+            border-collapse: collapse;   
+              }
+        td{
+            border: 1.5px dotted tan;
+        }
+        th{
+            border: 1.5px dotted tan;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>표(table) 형식으로 정보 출력하기</h3>
+    <table>
+        <colgroup>
+        <col width="100px"/>
+        <col width="300px"/>
+        <col width="200px"/>
+    </colgroup>
+    <thead>
+        <th>번호</th>
+        <th>이름</th>
+        <th>주소</th>
+
+    </thead>
+    <tr>
+        <td>1</td>
+        <td colspan="2">손정의(일본)</td>
+        
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>잡스</td>
+        <td rowspan="2">미국</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>박건후</td>
+    </tr>
+
+
+
+    </tr>
+    </table>
+
+
+
+
+
+
+
+
+</body>
+</html>

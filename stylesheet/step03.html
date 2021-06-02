@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        .container{
+            background-color: khaki;
+        }
+        */
+        /*.container의 자손요소중에서 p요소 선택
+        .container  p{
+            background-color: lemonchiffon;}
+         */
+        /*.container의 자식요소중에서 p요소 선택
+        .container > p{
+            background-color: lemonchiffon;
+        }
+        */
+        /*.container의 형제 중에서 가장 인접한p요소 선택
+        .container + p{
+            background-color: lemonchiffon;
+        }
+        */
+        /*.container의 형제 모든 p요소 선택*/
+        .container ~ p{
+            background-color: lemonchiffon;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <p>Vestibulum molestie enim ut ultricies pulvinar.</p>
+        <div>
+            <p>
+                Vestibulum molestie enim ut ultricies pulvinar.     
+            </p>
+        </div>
+    </div>
+    <p>Vestibulum molestie enim ut ultricies pulvinar.</p>
+    <p>Vestibulum molestie enim ut ultricies pulvinar.</p>
+    <p>Vestibulum molestie enim ut ultricies pulvinar.</p>
+    <p>Vestibulum molestie enim ut ultricies pulvinar.</p>
+
+</body>
+</html>
